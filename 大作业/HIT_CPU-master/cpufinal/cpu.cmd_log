@@ -1,0 +1,576 @@
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "D:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "D:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd
+xst -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -ifn cpu.xst -ofn cpu.syr
+ngdbuild -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -dd _ngo -nt timestamp -uc "huming.ucf" -p xc3s500e-pq208-4 "cpu.ngc" cpu.ngd
+map -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf
+par -ise "F:/cpufinal/cpufinal.ise" -w -intstyle ise -ol std -t 1 cpu_map.ncd cpu.ncd cpu.pcf
+trce -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -e 3 -s 4 -xml cpu cpu.ncd -o cpu.twr cpu.pcf -ucf huming.ucf
+bitgen -ise "F:/cpufinal/cpufinal.ise" -intstyle ise -f cpu.ut cpu.ncd

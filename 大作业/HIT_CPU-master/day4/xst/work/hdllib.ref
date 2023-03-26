@@ -1,0 +1,14 @@
+EN clock NULL C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl01 1387267665
+AR backw behavioral C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl12 1387267676
+AR control behavioral C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl06 1387267670
+AR cpu behavioral C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl13 1387267664
+EN getir NULL C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl03 1387267667
+EN cpu NULL C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl00 1387267663
+EN backw NULL C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl11 1387267675
+AR clock behavioral C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl02 1387267666
+AR getir behavioral C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl04 1387267668
+EN save NULL C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl09 1387267673
+AR save behavioral C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl10 1387267674
+AR calculate behavioral C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl08 1387267672
+EN control NULL C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl05 1387267669
+EN calculate NULL C:/Users/Administrator/Desktop/day4/cpu.vhd sub00/vhpl07 1387267671

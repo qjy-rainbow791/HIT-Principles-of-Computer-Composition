@@ -1,0 +1,14 @@
+EN clock NULL F:/cpufinal/cpu.vhd sub00/vhpl01 1386150169
+AR backw behavioral F:/cpufinal/cpu.vhd sub00/vhpl12 1386150180
+AR control behavioral F:/cpufinal/cpu.vhd sub00/vhpl06 1386150174
+AR cpu behavioral F:/cpufinal/cpu.vhd sub00/vhpl13 1386150168
+EN getir NULL F:/cpufinal/cpu.vhd sub00/vhpl03 1386150171
+EN cpu NULL F:/cpufinal/cpu.vhd sub00/vhpl00 1386150167
+EN backw NULL F:/cpufinal/cpu.vhd sub00/vhpl11 1386150179
+AR clock behavioral F:/cpufinal/cpu.vhd sub00/vhpl02 1386150170
+AR getir behavioral F:/cpufinal/cpu.vhd sub00/vhpl04 1386150172
+EN save NULL F:/cpufinal/cpu.vhd sub00/vhpl09 1386150177
+AR save behavioral F:/cpufinal/cpu.vhd sub00/vhpl10 1386150178
+AR calculate behavioral F:/cpufinal/cpu.vhd sub00/vhpl08 1386150176
+EN control NULL F:/cpufinal/cpu.vhd sub00/vhpl05 1386150173
+EN calculate NULL F:/cpufinal/cpu.vhd sub00/vhpl07 1386150175

@@ -1,0 +1,38 @@
+V3 22
+FL C:/Users/Administrator/Desktop/cache/fuck_cpu/day4/cpu.vhd 2013/12/04.08:56:36 J.30
+FL C:/Users/Administrator/Desktop/day4/cpu.vhd 2013/12/04.08:56:36 J.30
+EN work/cpu 1387267663 FL C:/Users/Administrator/Desktop/day4/cpu.vhd \
+      PB ieee/std_logic_1164 1163575071 PB ieee/std_logic_arith 1163575072 \
+      PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/cpu/Behavioral 1387267664 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd EN work/cpu 1387267663 \
+      CP clock CP getIR CP calculate CP save CP backw CP control
+EN work/clock 1387267665 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd PB ieee/std_logic_1164 1163575071
+AR work/clock/Behavioral 1387267666 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd EN work/clock 1387267665
+EN work/getIR 1387267667 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/getIR/Behavioral 1387267668 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd EN work/getIR 1387267667
+EN work/control 1387267669 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/control/Behavioral 1387267670 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd EN work/control 1387267669
+EN work/calculate 1387267671 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/calculate/Behavioral 1387267672 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd EN work/calculate 1387267671
+EN work/save 1387267673 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/save/Behavioral 1387267674 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd EN work/save 1387267673
+EN work/backw 1387267675 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd PB ieee/std_logic_1164 1163575071 \
+      PB ieee/std_logic_arith 1163575072 PB ieee/STD_LOGIC_UNSIGNED 1163575073
+AR work/backw/Behavioral 1387267676 \
+      FL C:/Users/Administrator/Desktop/day4/cpu.vhd EN work/backw 1387267675

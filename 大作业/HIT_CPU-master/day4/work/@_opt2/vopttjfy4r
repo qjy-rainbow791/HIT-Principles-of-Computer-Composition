@@ -1,0 +1,280 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\cache\fuck_cpu\day4
+T_opt
+Z1 VPEHXUZh6NPWlgdGiM:mdI1
+Z2 04 1 14 work w testbench_arch 1
+Z3 =1-c0f8daab0986-529e7cb5-6e-408
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5c;42
+T_opt1
+Z7 Vj5E6N8akB<B6OR1XWJz@E0
+Z8 04 3 10 work cpu behavioral 1
+Z9 =1-c0f8daab0986-529e7db4-1a5-38c
+R4
+Z10 n@_opt1
+R6
+T_opt2
+Z11 V3KR_dc1KWZcYg71zA=Wa11
+R8
+Z12 =1-c0f8daab0986-529e7dcc-343-3d0
+R4
+Z13 n@_opt2
+R6
+Ebackw
+Z14 w1386118596
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z16 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z17 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z18 8cpu.vhd
+Z19 Fcpu.vhd
+l0
+L460
+Z20 VMek4SzhAd[GM_8jTk78ah0
+Z21 OE;C;6.5c;42
+31
+Z22 o-explicit -93
+Z23 tExplicit 1
+Z24 !s100 3Pk@SD:eSg39VIOP1WT>M1
+Abehavioral
+R15
+R16
+R17
+Z25 DEx4 work 5 backw 0 22 Mek4SzhAd[GM_8jTk78ah0
+l478
+L475
+Z26 VEn]_M[klAZ@?Y9O11]aS=2
+R21
+31
+Z27 Mx3 4 ieee 14 std_logic_1164
+Z28 Mx2 4 ieee 15 std_logic_arith
+Z29 Mx1 4 ieee 18 std_logic_unsigned
+R22
+R23
+Z30 !s100 kKoPEnT1DWT>JlR`44X512
+Ecalculate
+R14
+R15
+R16
+R17
+R18
+R19
+l0
+L294
+Z31 V`cA>be9A;Oz:XEnaYR>So1
+R21
+31
+R22
+R23
+Z32 !s100 1:ED::SFEOKE`In9K;hMh2
+Abehavioral
+R15
+R16
+R17
+Z33 DEx4 work 9 calculate 0 22 `cA>be9A;Oz:XEnaYR>So1
+l314
+L305
+Z34 V4EJ[Ya0h;mQHWWloABA:k1
+R21
+31
+R27
+R28
+R29
+R22
+R23
+Z35 !s100 ^:3H2UUmSRZ6LdLa9j>l]2
+Eclock
+R14
+R17
+R18
+R19
+l0
+L138
+Z36 V^>7JcP^aO0JWM`5fN:z`b1
+R21
+31
+R22
+R23
+Z37 !s100 MD3;bl[j8>Z2=c@PbO7AU3
+Abehavioral
+R17
+Z38 DEx4 work 5 clock 0 22 ^>7JcP^aO0JWM`5fN:z`b1
+l144
+L143
+Z39 V_RN`h=G6]ABfSoXJn_jCO0
+R21
+31
+Z40 Mx1 4 ieee 14 std_logic_1164
+R22
+R23
+Z41 !s100 Y97YHYl73AMkFezd=j>ne1
+Econtrol
+R14
+R15
+R16
+R17
+R18
+R19
+l0
+L216
+Z42 VO6WFSe8nAb1DM3WT92Yz;0
+R21
+31
+R22
+R23
+Z43 !s100 aF2=G:zPD@7jkA2kk_5HN3
+Abehavioral
+R15
+R16
+R17
+Z44 DEx4 work 7 control 0 22 O6WFSe8nAb1DM3WT92Yz;0
+l243
+L241
+Z45 VVYoI>327a]WW6QSIk:kz^2
+R21
+31
+R27
+R28
+R29
+R22
+R23
+Z46 !s100 kPeNARR`1DjiK<MgT3ROi0
+Ecpu
+R14
+Z47 DPx22 A:\modeltech_6.5c\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z48 DPx22 A:\modeltech_6.5c\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z49 DPx22 A:\modeltech_6.5c\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+R18
+R19
+l0
+L5
+Z50 V1k<VORR=PaA]>NR5gNig50
+R21
+R22
+R23
+Z51 !s100 ^k>UfS4=^TUjPEBZ^XZ_F3
+Abehavioral
+DEx55 C:\Users\Administrator\Desktop\cache\fuck_cpu\day4\work 7 control 0 22 O6WFSe8nAb1DM3WT92Yz;0
+DEx55 C:\Users\Administrator\Desktop\cache\fuck_cpu\day4\work 5 backw 0 22 Mek4SzhAd[GM_8jTk78ah0
+DEx55 C:\Users\Administrator\Desktop\cache\fuck_cpu\day4\work 4 save 0 22 l8FE<O3FZC;_Y9HUeZhbm1
+DEx55 C:\Users\Administrator\Desktop\cache\fuck_cpu\day4\work 9 calculate 0 22 `cA>be9A;Oz:XEnaYR>So1
+DEx55 C:\Users\Administrator\Desktop\cache\fuck_cpu\day4\work 5 getir 0 22 Bzh?cf`OQk]CSh^bIk^@?0
+DEx55 C:\Users\Administrator\Desktop\cache\fuck_cpu\day4\work 5 clock 0 22 ^>7JcP^aO0JWM`5fN:z`b1
+R47
+R48
+R49
+DEx55 C:\Users\Administrator\Desktop\cache\fuck_cpu\day4\work 3 cpu 0 22 1k<VORR=PaA]>NR5gNig50
+31
+Mx3 22 A:\modeltech_6.5c\ieee 14 std_logic_1164
+Mx2 22 A:\modeltech_6.5c\ieee 15 std_logic_arith
+Mx1 22 A:\modeltech_6.5c\ieee 18 std_logic_unsigned
+l118
+L26
+Z52 V5kM_LDc[N90h]fgk`8@hM3
+R21
+R22
+R23
+Z53 !s100 [:1i@:[;Wzlg6h5cNg^X`2
+Egetir
+R14
+R16
+R15
+R17
+R18
+R19
+l0
+L170
+Z54 VBzh?cf`OQk]CSh^bIk^@?0
+R21
+31
+R22
+R23
+Z55 !s100 ^Gj9KV35QL_XK5IG7U7Gn0
+Abehavioral
+R16
+R15
+R17
+Z56 DEx4 work 5 getir 0 22 Bzh?cf`OQk]CSh^bIk^@?0
+l187
+L184
+Z57 V^Yeh;<PJ2kk3_6lId4<UQ1
+R21
+31
+R27
+Z58 Mx2 4 ieee 18 std_logic_unsigned
+Z59 Mx1 4 ieee 15 std_logic_arith
+R22
+R23
+Z60 !s100 bAU[[32JSYJd<BiM@XGPE2
+Esave
+R14
+R15
+R16
+R17
+R18
+R19
+l0
+L421
+Z61 Vl8FE<O3FZC;_Y9HUeZhbm1
+R21
+31
+R22
+R23
+Z62 !s100 ogK1d6:FNN[zJIECKRi6n2
+Abehavioral
+R15
+R16
+R17
+Z63 DEx4 work 4 save 0 22 l8FE<O3FZC;_Y9HUeZhbm1
+l434
+L433
+Z64 V;V>DIALm@Gf@>Xm[l[gH_1
+R21
+31
+R27
+R28
+R29
+R22
+R23
+Z65 !s100 5Zaj@>K4`]RNj>:cNNQX42
+Ew
+Z66 w1386052024
+Z67 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z68 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+R15
+R16
+R17
+Z69 8w.vhw
+Z70 Fw.vhw
+l0
+L27
+Z71 V:PR=T3^?5KIGbdfSb9bR90
+R21
+31
+R22
+R23
+Z72 !s100 95zDEIlP6BXAg?=CV3Dae0
+Atestbench_arch
+R67
+R68
+R15
+R16
+R17
+Z73 DEx4 work 1 w 0 22 :PR=T3^?5KIGbdfSb9bR90
+l79
+L30
+Z74 VgiDNYR6_1;aFc^k9YWbF>3
+R21
+31
+Z75 Mx5 4 ieee 14 std_logic_1164
+Z76 Mx4 4 ieee 15 std_logic_arith
+Z77 Mx3 4 ieee 18 std_logic_unsigned
+Z78 Mx2 4 ieee 16 std_logic_textio
+Z79 Mx1 3 std 6 textio
+R22
+R23
+Z80 !s100 z_M]<I^MnVWH9gO:@@PN<2
